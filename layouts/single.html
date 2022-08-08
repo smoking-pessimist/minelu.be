@@ -1,0 +1,5 @@
+{{ partial "header.html" . -}}
+<header><a href="{{ .Site.BaseURL }}"></a><h1>{{ .Title }}</h1></a></header>
+<article>
+{{ .Content -}}
+{{ partial "footer.html" . }}

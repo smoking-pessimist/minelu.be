@@ -1,0 +1,68 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>MINELUBE</title>
+	<link>https://minelu.be/</link>
+	<description>Recent content on MINELUBE</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>fr-fr</language>
+    
+        <atom:link href="https://minelu.be/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>WorldTour</title>
+		<link>https://minelu.be/worldtour/</link>
+		<pubDate>Sun, 07 Aug 2022 19:05:01 +0200</pubDate>
+		
+		<guid>https://minelu.be/worldtour/</guid>
+		<description>&lt;h1 id=&#34;world-tour-&#34;&gt;WORLD TOUR !&lt;/h1&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>C</title>
+		<link>https://minelu.be/c/</link>
+		<pubDate>Wed, 03 Aug 2022 18:56:08 +0200</pubDate>
+		
+		<guid>https://minelu.be/c/</guid>
+		<description>&lt;h1 id=&#34;c&#34;&gt;C&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Joe&lt;/li&gt;
+&lt;li&gt;MAMA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minecraft&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>A</title>
+		<link>https://minelu.be/a/</link>
+		<pubDate>Wed, 03 Aug 2022 18:56:08 +0200</pubDate>
+		
+		<guid>https://minelu.be/a/</guid>
+		<description>&lt;h1 id=&#34;a&#34;&gt;A&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Joe&lt;/li&gt;
+&lt;li&gt;MAMA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minecraft&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>B</title>
+		<link>https://minelu.be/b/</link>
+		<pubDate>Wed, 03 Aug 2022 18:56:08 +0200</pubDate>
+		
+		<guid>https://minelu.be/b/</guid>
+		<description>&lt;h1 id=&#34;b&#34;&gt;B&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Joe&lt;/li&gt;
+&lt;li&gt;MAMA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minecraft&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

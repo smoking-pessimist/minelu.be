@@ -1,0 +1,93 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Minecraftia;
+  src: url(minecraftia.ttf);
+}
+
+html {
+  font: 12pt "Minecraftia", sans-serif;
+}
+
+.mc-txt {
+  padding: 3px 10px 1px 10px;
+}
+
+.mc-list-txt {
+  padding: 3px 10px 1px 10px;
+}
+
+.mc-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  display: list-item;
+  list-style: none;
+}
+
+.mc-menu {
+  --btn-size: 30pt;
+  display: grid;
+  grid-template-columns: var(--btn-size) calc(var(--btn-size) * 10) var(--btn-size);
+  grid-template-rows: repeat(3, var(--btn-size)) 16px var(--btn-size);
+  grid-template-areas: ". 		first 		."". 		second 		."". 		third 		."".		.					.""lang fourth 		.";
+  grid-gap: 8px;
+}
+
+.mc-button {
+  height: var(--btn-size);
+  width: calc(var(--btn-size) * 10);
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #999 url("img/bg_btn.png") center/cover;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  border: 2px solid #000;
+}
+
+.mc-button:hover .mc-title {
+  background-color: rgba(100, 100, 255, 0.45);
+  text-shadow: 2px 2px rgba(32, 32, 19, 0.8);
+  color: #FFFFA0;
+}
+
+.mc-button:active .mc-title {
+  box-shadow: inset -2px -4px rgba(0, 0, 0, 0.2666666667), inset 2px 2px rgba(255, 255, 255, 0.3333333333);
+}
+
+.mc-button .mc-title {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #DDD;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6666666667);
+  box-shadow: inset -2px -4px rgba(0, 0, 0, 0.4), inset 2px 2px rgba(255, 255, 255, 0.4666666667);
+}
+
+.mc-button.full {
+  height: 100%;
+  width: 400px;
+}
+
+.mc-button-wrapper {
+  padding: 20px 0px 20px 0px;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+}

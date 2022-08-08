@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://minelu.be/worldtour/</loc>
+    <lastmod>2022-08-07T19:05:01+02:00</lastmod>
+  </url><url>
+    <loc>https://minelu.be/c/</loc>
+    <lastmod>2022-08-03T18:56:08+02:00</lastmod>
+  </url><url>
+    <loc>https://minelu.be/a/</loc>
+    <lastmod>2022-08-03T18:56:08+02:00</lastmod>
+  </url><url>
+    <loc>https://minelu.be/b/</loc>
+    <lastmod>2022-08-03T18:56:08+02:00</lastmod>
+  </url><url>
+    <loc>https://minelu.be/categories/</loc>
+  </url><url>
+    <loc>https://minelu.be/</loc>
+  </url><url>
+    <loc>https://minelu.be/tags/</loc>
+  </url>
+</urlset>

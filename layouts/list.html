@@ -1,0 +1,45 @@
+{{ partial "header.html" . -}}
+<header>
+	<h1 id="tag_{{ .Title }}"><a href="{{ .Site.BaseURL }}">{{ .Title | title }}</a></h1>
+</header>
+<article>
+	{{ .Content -}}
+	{{range first 1 .Pages.ByWeight }}
+	<div class="mc-button-wrapper">
+		<div class="mc-button full">
+			<a class="mc-a" href="{{ .RelPermalink }}">
+				<div class="mc-title">
+					<p class="mc-list-txt">
+						{{.Title}}
+					</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	{{end}}
+
+	<img id="parchment" src="img/parchment.png" alt="parchment">
+
+	{{$i := 1}}
+	{{range .Pages.ByWeight}}
+	{{ if (ne $i 1) }}
+
+		<div class="mc-button-wrapper">
+			<div class="mc-button full">
+				<a class="mc-a" href="{{ .RelPermalink }}">
+					<div class="mc-title">
+						<p class="mc-list-txt">
+							{{.Title}}
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	{{else}}
+	{{ end }}
+	{{$i = add $i 1 }}
+	{{ end }}
+
+</article>
+{{- partial "footer.html" . }}
